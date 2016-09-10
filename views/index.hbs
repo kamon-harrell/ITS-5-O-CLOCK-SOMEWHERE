@@ -20,7 +20,7 @@
     var lat = document.getElementById("latitude")
     var long = document.getElementById("longitude")
     var map = new google.maps.Map(document.getElementById('map'), {
-      center: {lat: parseInt(lat.innerHTML,10), lng: parseInt(long.innerHTML,10)},
+      center: {lat: parseInt(lat,10), lng: parseInt(long,10)},
       scrollwheel: false,
       zoom: 7
     });
